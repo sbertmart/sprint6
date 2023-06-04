@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.botones {
+  display:flex;
+  align-items:center;
+}
+
+.botones > button {
+  width:50vw;
+  padding:15px;
+  font: size 18px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  cursor:pointer;
+}
+
+.actiu {
+  background:pink;
+}
+
+.noactiu {
+  background:none;
+}
